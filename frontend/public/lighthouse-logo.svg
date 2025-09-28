@@ -1,0 +1,52 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="400" cy="300" r="150" fill="#f0f0f0" opacity="0.8"/>
+  
+  <!-- Lighthouse base/hill -->
+  <path d="M200 500 L600 500 L500 400 L300 400 Z" fill="#4ade80"/>
+  <path d="M300 400 L500 400 L450 350 L350 350 Z" fill="#65a30d"/>
+  <path d="M350 350 L450 350 L425 320 L375 320 Z" fill="#84cc16"/>
+  
+  <!-- Lighthouse tower -->
+  <rect x="375" y="150" width="50" height="200" fill="#0ea5e9"/>
+  <rect x="370" y="150" width="60" height="200" fill="#0284c7" opacity="0.8"/>
+  
+  <!-- Lighthouse top -->
+  <rect x="365" y="130" width="70" height="30" fill="#1e293b"/>
+  <rect x="370" y="135" width="60" height="20" fill="#334155"/>
+  
+  <!-- Lighthouse light/lantern room -->
+  <rect x="372" y="140" width="56" height="15" fill="#0ea5e9"/>
+  <rect x="375" y="142" width="50" height="11" fill="#38bdf8"/>
+  
+  <!-- Windows -->
+  <rect x="385" y="180" width="15" height="20" fill="#fbbf24" rx="2"/>
+  <rect x="385" y="220" width="15" height="20" fill="#fbbf24" rx="2"/>
+  
+  <!-- Light beams -->
+  <path d="M250 200 L350 180 L350 200 L250 220 Z" fill="#0ea5e9" opacity="0.6"/>
+  <path d="M450 180 L550 200 L450 200 L450 180 Z" fill="#0ea5e9" opacity="0.6"/>
+  <path d="M280 250 L370 240 L370 260 L280 270 Z" fill="#10b981" opacity="0.6"/>
+  <path d="M430 240 L520 250 L430 260 L430 240 Z" fill="#10b981" opacity="0.6"/>
+  
+  <!-- Circuit/tech elements -->
+  <circle cx="200" cy="250" r="8" fill="#0ea5e9"/>
+  <circle cx="180" cy="280" r="6" fill="#10b981"/>
+  <circle cx="220" cy="300" r="5" fill="#10b981"/>
+  <line x1="200" y1="250" x2="180" y2="280" stroke="#1e293b" stroke-width="3"/>
+  <line x1="180" y1="280" x2="220" y2="300" stroke="#1e293b" stroke-width="3"/>
+  
+  <circle cx="600" cy="250" r="8" fill="#f97316"/>
+  <circle cx="620" cy="280" r="6" fill="#ea580c"/>
+  <circle cx="580" cy="300" r="5" fill="#eab308"/>
+  <line x1="600" y1="250" x2="620" y2="280" stroke="#1e293b" stroke-width="3"/>
+  <line x1="620" y1="280" x2="580" y2="300" stroke="#1e293b" stroke-width="3"/>
+  
+  <!-- Additional circuit lines -->
+  <line x1="150" y1="350" x2="250" y2="340" stroke="#1e293b" stroke-width="2"/>
+  <line x1="550" y1="340" x2="650" y2="350" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="150" cy="350" r="4" fill="#1e293b"/>
+  <circle cx="650" cy="350" r="4" fill="#1e293b"/>
+  <circle cx="700" cy="380" r="3" fill="#1e293b"/>
+  <line x1="650" y1="350" x2="700" y2="380" stroke="#1e293b" stroke-width="2"/>
+</svg>
